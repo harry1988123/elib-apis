@@ -1,0 +1,24 @@
+{
+  "name": "elib-apis",
+  "version": "1.0.0",
+  "description": "This is ebook api project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.ts",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "express"
+  ],
+  "author": "Harendra Singh <pal.harendra95@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "nodemon": "^3.1.3",
+    "ts-node": "^10.9.2",
+    "typescipt": "^1.0.0"
+  }
+}
