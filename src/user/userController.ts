@@ -2,7 +2,7 @@ import { NextFunction, Response, Request } from "express";
 import createHttpError from "http-errors";
 import userModel from "./userModel";
 import bcrypt from "bcrypt";
-import { User } from "./userType";
+import { User } from "./userTypes";
 import { sign } from "jsonwebtoken";
 import { config } from "../config/config";
 
